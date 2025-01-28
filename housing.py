@@ -39,7 +39,7 @@ housing["ocean_proximity"].value_counts()
 housing.describe()
 
 
-get_ipython().run_line_magic('matplotlib', 'inline')
+# get_ipython().run_line_magic('matplotlib', 'inline')
 import matplotlib.pyplot as plt
 housing.hist(bins=50, figsize=(10,10))
 plt.show()
